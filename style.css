@@ -138,3 +138,30 @@ section#inicio p {
     color: #333;
     font-weight: bold;
 }
+
+/* CONTACTO */
+#contacto {
+    background-color: #f9f9f9;
+}
+
+#contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+form .btn-success {
+    background-color: #25D366;
+    border: none;
+}
