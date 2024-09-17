@@ -165,3 +165,20 @@ form .btn-success {
     background-color: #25D366;
     border: none;
 }
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #25D366;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
