@@ -10,6 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    padding-top: 56px;
 }
 
 header {
@@ -54,6 +55,54 @@ section#inicio p {
     margin: 0 auto;
     line-height: 1.5;
 }
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    z-index: 1020;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav nav-item {
+    margin-left: 1em;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5em 1em;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #25D366;
+}
+
+section#proyectos {
+    padding: 4em 0;
+    background-color: #f8f9fa;
+}
+
+section#proyectos h2 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    color: #333;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
 
 /* SERVICIOS */
 #servicios {
