@@ -215,6 +215,14 @@ form .btn-success {
     border: none;
 }
 
+#info {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+
 /* FOOTER */
 footer {
     background-color: #333;
