@@ -7,15 +7,17 @@
 
 body {
     font-family: 'Poppins', Arial, sans-serif;
-    background-color: #E9E7E0; /* Color de fondo claro */
-    color: #333;
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Para navegadores webkit como Chrome y Safari */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Para la mayoría de los navegadores modernos */
+    color: #E9E7E0; /* Color de texto claro */
     line-height: 1.6;
     padding-top: 56px;
 }
 
 /* Encabezado */
 header {
-    background-color: #0E132B; /* Color azul muy oscuro para el encabezado */
+    background: -webkit-linear-gradient(90deg, #0E132B, #1a1b23); /* Gradiente para el encabezado */
+    background: linear-gradient(90deg, #0E132B, #1a1b23); /* Gradiente para el encabezado */
     color: #E9E7E0; /* Color de texto claro */
     text-align: center;
     padding: 1.5em 0;
@@ -33,7 +35,7 @@ header p {
 /* Botón WhatsApp */
 .btn-whatsapp {
     display: inline-block;
-    background-color: #25D366; /* Mantener el verde para el botón de WhatsApp */
+    background-color: #25D366;
     color: #fff;
     padding: 0.8em 1.5em;
     text-decoration: none;
@@ -78,19 +80,20 @@ section#inicio p {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #7C7B71; /* Color gris oscuro en hover */
+    color: #fff; /* Color blanco para el hover */
 }
 
 /* Sección Proyectos */
 section#proyectos {
     padding: 4em 0;
-    background-color: #E9E7E0; /* Color de fondo claro */
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los proyectos */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los proyectos */
 }
 
 section#proyectos h2 {
     font-size: 2.5em;
     margin-bottom: 2em;
-    color: #0E132B; /* Color azul muy oscuro para los títulos */
+    color: #E9E7E0; /* Color de texto claro */
 }
 
 .card {
@@ -109,13 +112,14 @@ section#proyectos h2 {
 
 /* Servicios */
 #servicios {
-    background-color: #E9E7E0; /* Color de fondo claro */
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los servicios */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los servicios */
 }
 
 #servicios h2 {
     font-size: 2.5em;
     margin-bottom: 1.5em;
-    color: #0E132B; /* Color azul muy oscuro para los títulos */
+    color: #E9E7E0; /* Color de texto claro */
 }
 
 .card {
@@ -142,13 +146,14 @@ section#proyectos h2 {
 
 /* Testimonios */
 #testimonios {
-    background-color: #E9E7E0; /* Color de fondo claro */
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los testimonios */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los testimonios */
 }
 
 #testimonios h2 {
     font-size: 2.5em;
     margin-bottom: 1.5em;
-    color: #0E132B; /* Color azul muy oscuro para los títulos */
+    color: #E9E7E0; /* Color de texto claro */
 }
 
 .card-text {
@@ -161,19 +166,20 @@ section#proyectos h2 {
 }
 
 .text-end {
-    color: #0E132B; /* Color azul muy oscuro para el texto al final */
+    color: #E9E7E0; /* Color de texto claro */
     font-weight: bold;
 }
 
 /* Contacto */
 #contacto {
-    background-color: #E9E7E0; /* Color de fondo claro */
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el contacto */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el contacto */
 }
 
 #contacto h2 {
     font-size: 2.5em;
     margin-bottom: 1.5em;
-    color: #0E132B; /* Color azul muy oscuro para los títulos */
+    color: #E9E7E0; /* Color de texto claro */
 }
 
 form {
@@ -185,16 +191,18 @@ form {
 
 form .form-label {
     font-weight: bold;
+    color: #707076; /* Color gris oscuro para las etiquetas del formulario */
 }
 
 form .btn-success {
-    background-color: #808691; /* Color gris medio para el botón de formulario */
+    background-color: #198754; 
     border: none;
 }
 
 /* Footer */
 footer {
-    background-color: #0E132B; /* Color azul muy oscuro para el footer */
+    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el footer */
+    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el footer */
     color: #E9E7E0; /* Color de texto claro */
     text-align: center;
     padding: 1em 0;
