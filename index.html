@@ -29,7 +29,10 @@
   </head>
   <body>
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      role="navigation"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">Desarrollador Web</a>
         <button
@@ -232,14 +235,14 @@
       </div>
     </section>
 
-    <!-- Sección de Contacto -->
+    <!-- Sección de Formulario de Contacto -->
     <section id="contacto" class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-4">Contacto</h2>
         <div class="row">
           <div class="col-md-6">
             <h4>Envíame un Mensaje</h4>
-            <form id="contact-form">
+            <form id="contact-form" aria-labelledby="contact-form-header">
               <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input
@@ -249,11 +252,19 @@
                   name="from_name"
                   required
                   aria-required="true"
+                  aria-describedby="nombre-help"
+                  aria-label="Ingrese su nombre completo"
                 />
               </div>
               <div class="mb-3">
                 <label for="tel" class="form-label">Teléfono o Whatsapp</label>
-                <input type="tel" class="form-control" id="tel" name="tel" />
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="tel"
+                  name="tel"
+                  aria-label="Ingrese su número de teléfono o Whatsapp"
+                />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Correo Electrónico</label>
@@ -264,6 +275,7 @@
                   name="email"
                   required
                   aria-required="true"
+                  aria-label="Ingrese su correo electrónico"
                 />
               </div>
               <div class="mb-3">
@@ -275,9 +287,14 @@
                   rows="4"
                   required
                   aria-required="true"
+                  aria-label="Ingrese su mensaje"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-success">
+              <button
+                type="submit"
+                class="btn btn-success"
+                aria-label="Enviar formulario de contacto"
+              >
                 Enviar Mensaje
               </button>
             </form>
@@ -300,14 +317,39 @@
     </section>
 
     <!-- Pie de Página -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-3" aria-labelledby="footer-heading">
       <div class="container">
-        <p class="mb-0">&copy; 2024 Desarrollador Web. Todos los derechos reservados.</p>
+        <p class="mb-0" id="footer-heading">
+          &copy; 2024 Desarrollador Web. Todos los derechos reservados.
+        </p>
         <p>
           Sígueme en
-          <a href="https://facebook.com/tu-perfil" class="text-white" target="_blank" rel="noopener">Facebook</a> |
-          <a href="https://twitter.com/tu-perfil" class="text-white" target="_blank" rel="noopener">Twitter</a> |
-          <a href="https://linkedin.com/in/tu-perfil" class="text-white" target="_blank" rel="noopener">LinkedIn</a>
+          <a
+            href="https://facebook.com/tu-perfil"
+            class="text-white"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visitar mi perfil de Facebook"
+            >Facebook</a
+          >
+          |
+          <a
+            href="https://twitter.com/tu-perfil"
+            class="text-white"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visitar mi perfil de Twitter"
+            >Twitter</a
+          >
+          |
+          <a
+            href="https://linkedin.com/in/tu-perfil"
+            class="text-white"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visitar mi perfil de LinkedIn"
+            >LinkedIn</a
+          >
         </p>
       </div>
     </footer>
