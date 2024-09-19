@@ -1,218 +1,274 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Para navegadores webkit como Chrome y Safari */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Para la mayoría de los navegadores modernos */
-    color: #E9E7E0; /* Color de texto claro */
-    line-height: 1.6;
-    padding-top: 56px;
+  font-family: "Poppins", Arial, sans-serif;
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Para navegadores webkit como Chrome y Safari */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Para la mayoría de los navegadores modernos */
+  color: #e9e7e0; /* Color de texto claro */
+  line-height: 1.6;
+  padding-top: 56px;
 }
 
 /* Encabezado */
 header {
-    background: -webkit-linear-gradient(90deg, #0E132B, #1a1b23); /* Gradiente para el encabezado */
-    background: linear-gradient(90deg, #0E132B, #1a1b23); /* Gradiente para el encabezado */
-    color: #E9E7E0; /* Color de texto claro */
-    text-align: center;
-    padding: 1.5em 0;
+  background: -webkit-linear-gradient(
+    90deg,
+    #0e132b,
+    #1a1b23
+  ); /* Gradiente para el encabezado */
+  background: linear-gradient(
+    90deg,
+    #0e132b,
+    #1a1b23
+  ); /* Gradiente para el encabezado */
+  color: #e9e7e0; /* Color de texto claro */
+  text-align: center;
+  padding: 1.5em 0;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
 }
 
 header p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /* Botón WhatsApp */
 .btn-whatsapp {
-    display: inline-block;
-    background-color: #25D366;
-    color: #fff;
-    padding: 0.8em 1.5em;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1em;
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
 }
 
 /* Sección de Inicio */
 section#inicio {
-    padding: 2em;
-    text-align: center;
+  padding: 2em;
+  text-align: center;
 }
 
 section#inicio h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 section#inicio p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.5;
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 /* Barra de Navegación */
 .navbar {
-    z-index: 1020;
+  z-index: 1020;
 }
 
 .navbar-nav {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .navbar-nav .nav-item {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .navbar-nav .nav-link {
-    padding: 0.5em 1em;
-    color: #808691; /* Color gris medio para los enlaces de navegación */
+  padding: 0.5em 1em;
+  color: #808691; /* Color gris medio para los enlaces de navegación */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #fff; /* Color blanco para el hover */
+  color: #fff; /* Color blanco para el hover */
 }
 
 /* Sección Proyectos */
 section#proyectos {
-    padding: 4em 0;
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los proyectos */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los proyectos */
+  padding: 4em 0;
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los proyectos */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los proyectos */
 }
 
 section#proyectos h2 {
-    font-size: 2.5em;
-    margin-bottom: 2em;
-    color: #E9E7E0; /* Color de texto claro */
+  font-size: 2.5em;
+  margin-bottom: 2em;
+  color: #e9e7e0; /* Color de texto claro */
 }
 
 .card {
-    border: none;
-    transition: transform 0.2s;
+  border: none;
+  transition: transform 0.2s;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card-img-top {
-    height: 200px;
-    object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* Servicios */
 #servicios {
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los servicios */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los servicios */
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los servicios */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los servicios */
 }
 
 #servicios h2 {
-    font-size: 2.5em;
-    margin-bottom: 1.5em;
-    color: #E9E7E0; /* Color de texto claro */
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+  color: #e9e7e0; /* Color de texto claro */
 }
 
 .card {
-    border: none;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card-title {
-    font-size: 1.5em;
-    font-weight: 700;
-    margin-bottom: 1em;
-    color: #7C7B71; /* Color gris oscuro para los títulos de las tarjetas */
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  color: #7c7b71; /* Color gris oscuro para los títulos de las tarjetas */
 }
 
 .card-text {
-    font-size: 1.1em;
-    color: #707076; /* Color gris más oscuro para el texto de las tarjetas */
+  font-size: 1.1em;
+  color: #707076; /* Color gris más oscuro para el texto de las tarjetas */
 }
 
 /* Testimonios */
 #testimonios {
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los testimonios */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para los testimonios */
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los testimonios */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para los testimonios */
 }
 
 #testimonios h2 {
-    font-size: 2.5em;
-    margin-bottom: 1.5em;
-    color: #E9E7E0; /* Color de texto claro */
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+  color: #e9e7e0; /* Color de texto claro */
 }
 
 .card-text {
-    font-size: 1.1em;
-    color: #707076; /* Color gris más oscuro para el texto de los testimonios */
+  font-size: 1.1em;
+  color: #707076; /* Color gris más oscuro para el texto de los testimonios */
 }
 
 .card-body {
-    padding: 1.5em;
+  padding: 1.5em;
 }
 
 .text-end {
-    color: #E9E7E0; /* Color de texto claro */
-    font-weight: bold;
+  color: #e9e7e0; /* Color de texto claro */
+  font-weight: bold;
 }
 
 /* Contacto */
 #contacto {
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el contacto */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el contacto */
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para el contacto */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para el contacto */
 }
 
 #contacto h2 {
-    font-size: 2.5em;
-    margin-bottom: 1.5em;
-    color: #E9E7E0; /* Color de texto claro */
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+  color: #e9e7e0; /* Color de texto claro */
 }
 
 form {
-    background: #fff;
-    padding: 2em;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form .form-label {
-    font-weight: bold;
-    color: #707076; /* Color gris oscuro para las etiquetas del formulario */
+  font-weight: bold;
+  color: #707076; /* Color gris oscuro para las etiquetas del formulario */
 }
 
 form .btn-success {
-    background-color: #198754; 
-    border: none;
+  background-color: #198754;
+  border: none;
 }
 
 /* Footer */
 footer {
-    background: -webkit-linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el footer */
-    background: linear-gradient(90deg, #09090c, #1a1b23); /* Gradiente para el footer */
-    color: #E9E7E0; /* Color de texto claro */
-    text-align: center;
-    padding: 1em 0;
+  background: -webkit-linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para el footer */
+  background: linear-gradient(
+    90deg,
+    #09090c,
+    #1a1b23
+  ); /* Gradiente para el footer */
+  color: #e9e7e0; /* Color de texto claro */
+  text-align: center;
+  padding: 1em 0;
 }
 
 footer a {
-    color: #7C7B71; /* Color gris oscuro para los enlaces del footer */
-    text-decoration: none;
+  color: #7c7b71; /* Color gris oscuro para los enlaces del footer */
+  text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
