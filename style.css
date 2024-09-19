@@ -47,10 +47,11 @@ header .header-content {
 }
 
 header h1 {
-    font-size: 4em; /* Tamaño grande para el slogan */
+    font-size: 6.8em !important; 
+    font-weight: bolder !important;
     margin-bottom: 0.5em;
     opacity: 1;
-    animation: fadeSlide 8s ease-in-out infinite; /* Aumenta la duración para mejorar sincronización */
+    animation: fadeSlide 8s ease-in-out infinite;
 }
 
 @keyframes fadeSlide {
