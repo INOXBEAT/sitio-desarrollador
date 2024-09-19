@@ -10,6 +10,39 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(function (link) {
   });
 });
 
+//  SLOGANS
+document.addEventListener('DOMContentLoaded', function() {
+  const headerText = document.querySelector('header h1');
+  const texts = [
+      "¿Quieres destacar tu imagen en internet?",
+      "¿Necesitas una web que llame la atención?",
+      "¿Quieres conectar con más clientes potenciales?",
+      "¿Buscas una web que impulse tu negocio?"
+  ];
+  let currentIndex = 0;
+
+  // Establece el primer texto inmediatamente
+  headerText.textContent = texts[currentIndex];
+
+  function changeText() {
+      // Actualiza el texto y el índice
+      currentIndex = (currentIndex + 1) % texts.length;
+      headerText.textContent = texts[currentIndex];
+  }
+
+  // Cambia el texto cada 8 segundos
+  setInterval(changeText, 8000);
+
+  // Cambia el texto después de 8 segundos para que no se muestre el texto inicial dos veces
+  setTimeout(() => {
+    changeText(); // Cambia el texto una vez para evitar la duplicación
+  }, 8000);
+});
+
+
+
+
+
 
 //  EMAILjs
 (function() {

@@ -24,58 +24,86 @@ body {
 
 /* Encabezado */
 header {
-  background: -webkit-linear-gradient(
-    90deg,
-    #0e132b,
-    #1a1b23
-  ); /* Gradiente para el encabezado */
-  background: linear-gradient(
-    90deg,
-    #0e132b,
-    #1a1b23
-  ); /* Gradiente para el encabezado */
-  color: #e9e7e0; /* Color de texto claro */
-  text-align: center;
-  padding: 1.5em 0;
+    background: -webkit-linear-gradient(
+      90deg,
+      #0e132b,
+      #1a1b23
+    ); /* Gradiente para el encabezado */
+    background: linear-gradient(
+      90deg,
+      #0e132b,
+      #1a1b23
+    ); /* Gradiente para el encabezado */
+    color: #e9e7e0; /* Color de texto claro */
+    text-align: center;
+    padding: 1.5em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+header .header-content {
+    position: relative;
+    z-index: 1;
 }
 
 header h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
+    font-size: 4em; /* Tamaño grande para el slogan */
+    margin-bottom: 0.5em;
+    opacity: 1;
+    animation: fadeSlide 8s ease-in-out infinite; /* Aumenta la duración para mejorar sincronización */
 }
 
-header p {
-  font-size: 1.2em;
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
 }
+
 
 /* Botón WhatsApp */
 .btn-whatsapp {
-  display: inline-block;
-  background-color: #25d366;
-  color: #fff;
-  padding: 0.8em 1.5em;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1em;
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
 }
 
 /* Sección de Inicio */
 section#inicio {
-  padding: 2em;
-  text-align: center;
+    padding: 2em;
+    text-align: center;
 }
 
 section#inicio h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
 
 section#inicio p {
-  font-size: 1.2em;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.5;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
+
+  
+  
 
 /* Barra de Navegación */
 .navbar {
