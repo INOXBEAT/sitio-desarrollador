@@ -152,11 +152,11 @@ section#inicio img {
 
 .navbar-nav .nav-link {
   padding: 0.5em 1em;
-  color: #808691; /* Color gris medio para los enlaces de navegación */
+  color: #808691;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #fff; /* Color blanco para el hover */
+  color: #fff; 
 }
 
 .logo {
@@ -170,6 +170,13 @@ section#inicio img {
   margin-left: 10px; 
   display: inline-block; 
   vertical-align: middle; 
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-nombre {
+    font-size: 1em;
+  }
 }
 
 
