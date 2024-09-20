@@ -133,6 +133,15 @@ section#inicio p {
     height: 50px;
 }
 
+.navbar-nombre {
+  font-size: 1.2em; 
+  color: #fff; 
+  margin-left: 10px; 
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+
 /* Sección Proyectos */
 section#proyectos {
   padding: 4em 0;

@@ -14,7 +14,7 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(function (link) {
 document.addEventListener('DOMContentLoaded', function() {
   const headerText = document.querySelector('header h1');
   const texts = [
-      "¿Quieres destacar tu imagen en internet?",
+      "¿Quieres destacar tu negocio en internet?",
       "¿Necesitas una web que llame la atención?",
       "¿Quieres conectar con más clientes potenciales?",
       "¿Buscas una web que impulse tu negocio?"
