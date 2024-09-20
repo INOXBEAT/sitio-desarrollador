@@ -14,10 +14,10 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(function (link) {
 document.addEventListener('DOMContentLoaded', function() {
   const headerText = document.querySelector('header h1');
   const texts = [
-      "¿Quieres destacar tu negocio en internet?",
-      "¿Necesitas una web que llame la atención?",
-      "¿Quieres conectar con más clientes potenciales?",
-      "¿Buscas una web que impulse tu negocio?"
+      "¿Quieres destacar tu negocio en Internet?",
+      "¿Necesitas una página web que llame la atención?",
+      "¿Deseas conectar con más clientes potenciales?",
+      "¿Buscas una web que le dé impulso a tu negocio?"
   ];
   let currentIndex = 0;
 
