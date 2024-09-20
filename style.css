@@ -28,13 +28,13 @@ header {
       90deg,
       #0e132b,
       #1a1b23
-    ); /* Gradiente para el encabezado */
+    ); 
     background: linear-gradient(
       90deg,
       #0e132b,
       #1a1b23
-    ); /* Gradiente para el encabezado */
-    color: #e9e7e0; /* Color de texto claro */
+    );
+    color: #e9e7e0;
     text-align: center;
     padding: 1.5em 0;
     position: relative;
@@ -73,6 +73,18 @@ header h1 {
     }
 }
 
+/* Ajustes de fuente para diferentes dispositivos */
+@media (max-width: 768px) { 
+  header h1 {
+      font-size: 4em !important; 
+  }
+}
+
+@media (max-width: 576px) { 
+  header h1 {
+      font-size: 2.5em !important; 
+  }
+}
 
 /* Botón WhatsApp */
 .btn-whatsapp {
