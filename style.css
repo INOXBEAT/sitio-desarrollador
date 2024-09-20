@@ -97,43 +97,29 @@ header h1 {
     margin-top: 1em;
 }
 
-/* Sección de Inicio */
-section#inicio {
-    padding: 2em;
-    text-align: center;
-}
-
-section#inicio h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-section#inicio p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.5;
-}
 
 /* Sección de Presentación */
 section#inicio {
   padding: 2em;
+  text-align: center;
 }
 
 section#inicio h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 1em;
 }
 
 section#inicio p {
   font-size: 1.2em;
-  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 section#inicio img {
   max-width: 100%;
   height: auto;
-  border-radius: 50px; /* Añade bordes redondeados a la imagen */
+  border-radius: 50px; 
 }
   
 
